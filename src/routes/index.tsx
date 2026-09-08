@@ -337,7 +337,7 @@ function Featured() {
             <Reveal
               key={dish.name}
               delay={(i % 2) * 100}
-              className={i % 2 === 1 ? "sm:mt-16" : undefined}
+              className={i % 2 === 1 ? "sm:mt-16" : ""}
             >
               <figure className="group">
                 <div className="overflow-hidden">
