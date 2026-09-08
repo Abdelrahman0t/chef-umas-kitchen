@@ -604,18 +604,7 @@ function Footer() {
   );
 }
 
-function MobileBar() {
-  return (
-    <div className="fixed inset-x-0 bottom-0 z-50 border-t border-gold/30 bg-background/95 p-3 backdrop-blur md:hidden">
-      <a
-        href={PHONE_HREF}
-        className="block bg-gold py-3.5 text-center text-[0.72rem] tracking-[0.2em] text-charcoal uppercase"
-      >
-        Call / Text to Order
-      </a>
-    </div>
-  );
-}
+
 
 function Home() {
   return (
@@ -630,7 +619,6 @@ function Home() {
         <Visit />
       </main>
       <Footer />
-      <MobileBar />
     </div>
   );
 }
