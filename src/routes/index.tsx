@@ -242,8 +242,9 @@ function Hero() {
         height={1280}
         className="absolute inset-0 h-full w-full object-cover"
       />
-      <div className="absolute inset-0 bg-gradient-to-r from-charcoal via-charcoal/80 to-charcoal/20" />
-      <div className="absolute inset-x-0 bottom-0 h-40 bg-gradient-to-t from-charcoal to-transparent" />
+      <div className="absolute inset-0 bg-gradient-to-r from-charcoal/95 via-charcoal/45 to-transparent" />
+      <div className="absolute inset-x-0 bottom-0 h-2/3 bg-gradient-to-t from-charcoal via-charcoal/60 to-transparent" />
+
 
       <div className="relative mx-auto flex min-h-[92svh] max-w-7xl flex-col justify-end px-5 pt-28 pb-14 sm:px-8 sm:pb-20">
         <Reveal className="max-w-2xl">
